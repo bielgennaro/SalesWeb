@@ -5,13 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84cebc40-2b4f-40ea-965e-d44b37168cac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Models/Enums/SaleStatus.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/SalesRecord.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/Seller.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/SeedingService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0956d2d7-a382-4767-b20b-977477e833e0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0956d2d7-a382-4767-b20b-977477e833e0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/DepartmentsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/DepartmentsController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Data/SalesWebContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/SalesWebContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Migrations/SalesWebContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Migrations/SalesWebContextModelSnapshot.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Models/Department.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Department.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/js/site.js" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/js/site.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Enums/SaleStatus.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Enums/SaleStatus.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/SalesRecord.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/SalesRecord.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Seller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Seller.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SalesWeb.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SalesWeb.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Departments/Create.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Departments/Create.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Departments/Delete.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Departments/Delete.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Departments/Details.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Departments/Details.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Departments/Edit.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Departments/Edit.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Departments/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Departments/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml.css" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/css/site.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/css/bootstrap-Litera.css" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/css/bootstrap-Litera.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/jquery-validation/dist/additional-methods.js" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/jquery-validation/dist/additional-methods.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/jquery-validation/dist/jquery.validate.js" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/jquery-validation/dist/jquery.validate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/jquery/dist/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/jquery/dist/jquery.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,19 +53,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenDatabaseViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/SalesWeb&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenDatabaseViewOnStart": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/movie-ticket-backend"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
 </project>

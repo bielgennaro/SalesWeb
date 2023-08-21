@@ -1,12 +1,11 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+#region
+
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using SalesWeb.Data;
 using SalesWeb.Models;
+
+#endregion
 
 namespace SalesWeb.Controllers
 {
@@ -22,9 +21,9 @@ namespace SalesWeb.Controllers
         // GET: Departments
         public async Task<IActionResult> Index()
         {
-              return _context.Department != null ? 
-                          View(await _context.Department.ToListAsync()) :
-                          Problem("Entity set 'SalesWebContext.Department'  is null.");
+            return _context.Department != null
+                ? View(await _context.Department.ToListAsync())
+                : Problem("Entity set 'SalesWebContext.Department'  is null.");
         }
 
         // GET: Departments/Details/5
@@ -64,6 +63,7 @@ namespace SalesWeb.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+
             return View(department);
         }
 
@@ -80,6 +80,7 @@ namespace SalesWeb.Controllers
             {
                 return NotFound();
             }
+
             return View(department);
         }
 
@@ -108,13 +109,13 @@ namespace SalesWeb.Controllers
                     {
                         return NotFound();
                     }
-                    else
-                    {
-                        throw;
-                    }
+
+                    throw;
                 }
+
                 return RedirectToAction(nameof(Index));
             }
+
             return View(department);
         }
 
@@ -145,19 +146,20 @@ namespace SalesWeb.Controllers
             {
                 return Problem("Entity set 'SalesWebContext.Department'  is null.");
             }
+
             var department = await _context.Department.FindAsync(id);
             if (department != null)
             {
                 _context.Department.Remove(department);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool DepartmentExists(int id)
         {
-          return (_context.Department?.Any(e => e.Id == id)).GetValueOrDefault();
+            return (_context.Department?.Any(e => e.Id == id)).GetValueOrDefault();
         }
     }
 }

@@ -1,31 +1,17 @@
-using System.Configuration;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
-using SalesWeb.Data;
-//Acho que isso consertou as migrationskkk
-var builder = WebApplication.CreateBuilder(args);string mySqlConnection = builder.Configuration.GetConnectionString("SalesWebContext");
-builder.Services.AddDbContextPool<SalesWebContext>(options =>
-    options.UseMySql(mySqlConnection, ServerVersion.AutoDetect(mySqlConnection)));
+#region
 
-builder.Services.AddControllersWithViews();
+using SalesWeb;
 
-var app = builder.Build();
+#endregion
 
-if (!app.Environment.IsDevelopment())
+public class Program
 {
-    app.UseExceptionHandler("/Home/Error");
-    app.UseHsts();
+    public static void Main(string[] args)
+    {
+        CreateHostBuilder(args).Build().Run();
+    }
+
+    public static IHostBuilder CreateHostBuilder(string[] args) =>
+        Host.CreateDefaultBuilder(args)
+            .ConfigureWebHostDefaults(webBuilder => { webBuilder.UseStartup<Startup>(); });
 }
-
-app.UseHttpsRedirection();
-app.UseStaticFiles();
-
-app.UseRouting();
-
-app.UseAuthorization();
-
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
-
-app.Run();

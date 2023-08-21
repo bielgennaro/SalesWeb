@@ -1,7 +1,10 @@
-﻿using System.Diagnostics;
+﻿#region
+
+using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using SalesWeb.Models;
 using SalesWeb.Models.ViewModels;
+
+#endregion
 
 namespace SalesWeb.Controllers;
 

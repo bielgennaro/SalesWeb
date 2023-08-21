@@ -1,15 +1,15 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+#region
+
 using Microsoft.EntityFrameworkCore;
 using SalesWeb.Models;
+
+#endregion
 
 namespace SalesWeb.Data
 {
     public class SalesWebContext : DbContext
     {
-        public SalesWebContext (DbContextOptions<SalesWebContext> options)
+        public SalesWebContext(DbContextOptions<SalesWebContext> options)
             : base(options)
         {
         }

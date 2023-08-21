@@ -1,6 +1,6 @@
 ﻿namespace SalesWeb.Models.Enums;
 
-public enum SaleStatus : int
+public enum SaleStatus
 {
     Pending = 0,
     Billed = 1,
